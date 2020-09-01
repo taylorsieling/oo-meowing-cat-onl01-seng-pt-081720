@@ -2,6 +2,10 @@
 
 class Cat 
   
-  attr_accessor :$FILENAME
+  attr_accessor :name 
+  
+  def meow
+    puts "meow!"
+  end
   
 end
